@@ -1,7 +1,6 @@
 {
   "name": "vercel",
   "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Claude Code.",
-  "version": "1.0.0",
   "author": {
     "name": "Vercel"
   }

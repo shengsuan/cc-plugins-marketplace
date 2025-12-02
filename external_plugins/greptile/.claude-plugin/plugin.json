@@ -1,7 +1,6 @@
 {
   "name": "greptile",
   "description": "AI-powered codebase search and understanding. Query your repositories using natural language to find relevant code, understand dependencies, and get contextual answers about your codebase architecture.",
-  "version": "1.0.0",
   "author": {
     "name": "Greptile"
   }

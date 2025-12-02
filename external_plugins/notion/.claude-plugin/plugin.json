@@ -1,7 +1,6 @@
 {
   "name": "notion",
   "description": "Notion workspace integration. Search pages, create and update documents, manage databases, and access your team's knowledge base directly from Claude Code for seamless documentation workflows.",
-  "version": "1.0.0",
   "author": {
     "name": "Notion"
   }

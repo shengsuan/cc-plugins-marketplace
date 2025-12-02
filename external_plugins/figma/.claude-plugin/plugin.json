@@ -1,7 +1,6 @@
 {
   "name": "figma",
   "description": "Figma design platform integration. Access design files, extract component information, read design tokens, and translate designs into code. Bridge the gap between design and development workflows.",
-  "version": "1.0.0",
   "author": {
     "name": "Figma"
   }
