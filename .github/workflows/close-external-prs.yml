@@ -4,6 +4,10 @@ on:
   pull_request_target:
     types: [opened]
 
+permissions:
+  pull-requests: write
+  issues: write
+
 jobs:
   check-membership:
     if: vars.DISABLE_EXTERNAL_PR_CHECK != 'true'
