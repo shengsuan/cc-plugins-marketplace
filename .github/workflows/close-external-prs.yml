@@ -13,35 +13,35 @@ jobs:
     if: vars.DISABLE_EXTERNAL_PR_CHECK != 'true'
     runs-on: ubuntu-latest
     steps:
-      - name: Check if author is org member
+      - name: Check if author has write access
         uses: actions/github-script@v7
         with:
           script: |
-            const org = 'anthropics';
             const author = context.payload.pull_request.user.login;
 
-            try {
-              await github.rest.orgs.checkMembershipForUser({
-                org: org,
-                username: author
-              });
-              console.log(`${author} is an org member, allowing PR`);
-            } catch (e) {
-              if (e.status === 404) {
-                await github.rest.issues.createComment({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  issue_number: context.payload.pull_request.number,
-                  body: `Thanks for your interest! This repo only accepts contributions from Anthropic team members. If you'd like to submit a plugin to the marketplace, please submit your plugin [here](https://docs.google.com/forms/d/e/1FAIpQLSdeFthxvjOXUjxg1i3KrOOkEPDJtn71XC-KjmQlxNP63xYydg/viewform).`
-                });
+            const { data } = await github.rest.repos.getCollaboratorPermissionLevel({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              username: author
+            });
 
-                await github.rest.pulls.update({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  pull_number: context.payload.pull_request.number,
-                  state: 'closed'
-                });
-
-                console.log(`Closed PR from external contributor: ${author}`);
-              }
+            if (['admin', 'write'].includes(data.permission)) {
+              console.log(`${author} has ${data.permission} access, allowing PR`);
+              return;
             }
+
+            console.log(`${author} has ${data.permission} access, closing PR`);
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.pull_request.number,
+              body: `Thanks for your interest! This repo only accepts contributions from Anthropic team members. If you'd like to submit a plugin to the marketplace, please submit your plugin [here](https://docs.google.com/forms/d/e/1FAIpQLSdeFthxvjOXUjxg1i3KrOOkEPDJtn71XC-KjmQlxNP63xYydg/viewform).`
+            });
+
+            await github.rest.pulls.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.payload.pull_request.number,
+              state: 'closed'
+            });
