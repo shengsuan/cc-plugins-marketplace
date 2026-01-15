@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "typescript-lsp",
-      "description": "TypeScript/JavaScript language server for enhanced code intelligence",
+      "description": "TypeScript/JavaScript 语言服务器，提供增强的代码智能功能",
       "version": "1.0.0",
       "author": {
         "name": "Anthropic",
@@ -36,7 +36,7 @@
     },
     {
       "name": "pyright-lsp",
-      "description": "Python language server (Pyright) for type checking and code intelligence",
+      "description": "Python 语言服务器 (Pyright)，用于类型检查和代码智能",
       "version": "1.0.0",
       "author": {
         "name": "Anthropic",
@@ -58,7 +58,7 @@
     },
     {
       "name": "gopls-lsp",
-      "description": "Go language server for code intelligence and refactoring",
+      "description": "Go 语言服务器，提供代码智能和重构功能",
       "version": "1.0.0",
       "author": {
         "name": "Anthropic",
@@ -78,7 +78,7 @@
     },
     {
       "name": "rust-analyzer-lsp",
-      "description": "Rust language server for code intelligence and analysis",
+      "description": "Rust 语言服务器，提供代码智能和分析功能",
       "version": "1.0.0",
       "author": {
         "name": "Anthropic",
@@ -98,7 +98,7 @@
     },
     {
       "name": "clangd-lsp",
-      "description": "C/C++ language server (clangd) for code intelligence",
+      "description": "C/C++ 语言服务器 (clangd)，提供代码智能功能",
       "version": "1.0.0",
       "author": {
         "name": "Anthropic",
@@ -127,7 +127,7 @@
     },
     {
       "name": "php-lsp",
-      "description": "PHP language server (Intelephense) for code intelligence",
+      "description": "PHP 语言服务器 (Intelephense)，提供代码智能功能",
       "version": "1.0.0",
       "author": {
         "name": "Anthropic",
@@ -148,7 +148,7 @@
     },
     {
       "name": "swift-lsp",
-      "description": "Swift language server (SourceKit-LSP) for code intelligence",
+      "description": "Swift 语言服务器 (SourceKit-LSP)，提供代码智能功能",
       "version": "1.0.0",
       "author": {
         "name": "Anthropic",
@@ -168,7 +168,7 @@
     },
     {
       "name": "kotlin-lsp",
-      "description": "Kotlin language server for code intelligence",
+      "description": "Kotlin 语言服务器，提供代码智能功能",
       "version": "1.0.0",
       "author": {
         "name": "Anthropic",
@@ -191,7 +191,7 @@
     },
     {
       "name": "csharp-lsp",
-      "description": "C# language server for code intelligence",
+      "description": "C# 语言服务器，提供代码智能功能",
       "version": "1.0.0",
       "author": {
         "name": "Anthropic",
@@ -211,7 +211,7 @@
     },
     {
       "name": "jdtls-lsp",
-      "description": "Java language server (Eclipse JDT.LS) for code intelligence",
+      "description": "Java 语言服务器 (Eclipse JDT.LS)，提供代码智能功能",
       "version": "1.0.0",
       "author": {
         "name": "Anthropic",
@@ -232,7 +232,7 @@
     },
     {
       "name": "lua-lsp",
-      "description": "Lua language server for code intelligence",
+      "description": "Lua 语言服务器，提供代码智能功能",
       "version": "1.0.0",
       "author": {
         "name": "Anthropic",
@@ -252,7 +252,7 @@
     },
     {
       "name": "agent-sdk-dev",
-      "description": "Development kit for working with the Claude Agent SDK",
+      "description": "用于使用 Claude Agent SDK 的开发工具包",
       "author": {
         "name": "Anthropic",
         "email": "support@anthropic.com"
@@ -263,7 +263,7 @@
     },
     {
       "name": "pr-review-toolkit",
-      "description": "Comprehensive PR review agents specializing in comments, tests, error handling, type design, code quality, and code simplification",
+      "description": "全面的 PR 审查代理，专注于注释、测试、错误处理、类型设计、代码质量和代码简化",
       "author": {
         "name": "Anthropic",
         "email": "support@anthropic.com"
@@ -274,7 +274,7 @@
     },
     {
       "name": "commit-commands",
-      "description": "Commands for git commit workflows including commit, push, and PR creation",
+      "description": "用于 git 提交工作流的命令，包括提交、推送和 PR 创建",
       "author": {
         "name": "Anthropic",
         "email": "support@anthropic.com"
@@ -285,7 +285,7 @@
     },
     {
       "name": "feature-dev",
-      "description": "Comprehensive feature development workflow with specialized agents for codebase exploration, architecture design, and quality review",
+      "description": "全面的功能开发工作流，配备专门的代理用于代码库探索、架构设计和质量审查",
       "author": {
         "name": "Anthropic",
         "email": "support@anthropic.com"
@@ -296,7 +296,7 @@
     },
     {
       "name": "security-guidance",
-      "description": "Security reminder hook that warns about potential security issues when editing files, including command injection, XSS, and unsafe code patterns",
+      "description": "安全提醒钩子，在编辑文件时警告潜在的安全问题，包括命令注入、XSS 和不安全的代码模式",
       "author": {
         "name": "Anthropic",
         "email": "support@anthropic.com"
@@ -307,7 +307,7 @@
     },
     {
       "name": "code-review",
-      "description": "Automated code review for pull requests using multiple specialized agents with confidence-based scoring to filter false positives",
+      "description": "使用多个专门代理对拉取请求进行自动代码审查，采用基于置信度的评分来过滤误报",
       "author": {
         "name": "Anthropic",
         "email": "support@anthropic.com"
@@ -318,7 +318,7 @@
     },
     {
       "name": "code-simplifier",
-      "description": "Agent that simplifies and refines code for clarity, consistency, and maintainability while preserving functionality. Focuses on recently modified code.",
+      "description": "简化和优化代码以提高清晰度、一致性和可维护性，同时保持功能不变的代理。专注于最近修改的代码。",
       "author": {
         "name": "Anthropic",
         "email": "support@anthropic.com"
@@ -329,7 +329,7 @@
     },
     {
       "name": "explanatory-output-style",
-      "description": "Adds educational insights about implementation choices and codebase patterns (mimics the deprecated Explanatory output style)",
+      "description": "添加关于实现选择和代码库模式的教育见解（模仿已弃用的解释性输出风格）",
       "author": {
         "name": "Anthropic",
         "email": "support@anthropic.com"
@@ -340,7 +340,7 @@
     },
     {
       "name": "learning-output-style",
-      "description": "Interactive learning mode that requests meaningful code contributions at decision points (mimics the unshipped Learning output style)",
+      "description": "交互式学习模式，在决策点请求有意义的代码贡献（模仿未发布的 Learning 输出风格）",
       "author": {
         "name": "Anthropic",
         "email": "support@anthropic.com"
@@ -351,7 +351,7 @@
     },
     {
       "name": "frontend-design",
-      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Generates creative, polished code that avoids generic AI aesthetics.",
+      "description": "创建独特、生产级的前端界面，具有高设计质量。生成创意、精致的代码，避免通用的 AI 美学风格。",
       "author": {
         "name": "Anthropic",
         "email": "support@anthropic.com"
@@ -362,7 +362,7 @@
     },
     {
       "name": "ralph-loop",
-      "description": "Interactive self-referential AI loops for iterative development, implementing the Ralph Wiggum technique. Claude works on the same task repeatedly, seeing its previous work, until completion.",
+      "description": "用于迭代开发的交互式自引用 AI 循环，实现 Ralph Wiggum 技术。Claude 重复处理同一任务，查看其之前的工作，直到完成。",
       "author": {
         "name": "Anthropic",
         "email": "support@anthropic.com"
@@ -373,7 +373,7 @@
     },
     {
       "name": "hookify",
-      "description": "Easily create custom hooks to prevent unwanted behaviors by analyzing conversation patterns or from explicit instructions. Define rules via simple markdown files.",
+      "description": "通过分析对话模式或根据明确指令，轻松创建自定义钩子以防止不良行为。通过简单的 markdown 文件定义规则。",
       "author": {
         "name": "Anthropic",
         "email": "support@anthropic.com"
@@ -384,7 +384,7 @@
     },
     {
       "name": "plugin-dev",
-      "description": "Comprehensive toolkit for developing Claude Code plugins. Includes 7 expert skills covering hooks, MCP integration, commands, agents, and best practices. AI-assisted plugin creation and validation.",
+      "description": "开发 Claude Code 插件的全面工具包。包括 7 项专家技能，涵盖钩子、MCP 集成、命令、代理和最佳实践。AI 辅助的插件创建和验证。",
       "author": {
         "name": "Anthropic",
         "email": "support@anthropic.com"
@@ -395,14 +395,14 @@
     },
     {
       "name": "greptile",
-      "description": "AI-powered codebase search and understanding. Query your repositories using natural language to find relevant code, understand dependencies, and get contextual answers about your codebase architecture.",
+      "description": "AI 驱动的代码库搜索和理解。使用自然语言查询您的代码库，查找相关代码，理解依赖关系，并获取关于代码库架构的上下文答案。",
       "category": "development",
       "source": "./external_plugins/greptile",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/greptile"
     },
     {
       "name": "serena",
-      "description": "Semantic code analysis MCP server providing intelligent code understanding, refactoring suggestions, and codebase navigation through language server protocol integration.",
+      "description": "语义代码分析 MCP 服务器，通过语言服务器协议集成提供智能代码理解、重构建议和代码库导航。",
       "category": "development",
       "source": "./external_plugins/serena",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/serena",
@@ -410,28 +410,28 @@
     },
     {
       "name": "playwright",
-      "description": "Browser automation and end-to-end testing MCP server by Microsoft. Enables Claude to interact with web pages, take screenshots, fill forms, click elements, and perform automated browser testing workflows.",
+      "description": "Microsoft 提供的浏览器自动化和端到端测试 MCP 服务器。使 Claude 能够与网页交互、截图、填写表单、点击元素并执行自动化浏览器测试工作流。",
       "category": "testing",
       "source": "./external_plugins/playwright",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/playwright"
     },
     {
       "name": "github",
-      "description": "Official GitHub MCP server for repository management. Create issues, manage pull requests, review code, search repositories, and interact with GitHub's full API directly from Claude Code.",
+      "description": "官方 GitHub MCP 服务器，用于仓库管理。创建问题、管理拉取请求、审查代码、搜索仓库，并直接从 Claude Code 与 GitHub 的完整 API 交互。",
       "category": "productivity",
       "source": "./external_plugins/github",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/github"
     },
     {
       "name": "supabase",
-      "description": "Supabase MCP integration for database operations, authentication, storage, and real-time subscriptions. Manage your Supabase projects, run SQL queries, and interact with your backend directly.",
+      "description": "Supabase MCP 集成，用于数据库操作、身份验证、存储和实时订阅。管理您的 Supabase 项目、运行 SQL 查询并直接与后端交互。",
       "category": "database",
       "source": "./external_plugins/supabase",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/supabase"
     },
     {
       "name": "atlassian",
-      "description": "Connect to Atlassian products including Jira and Confluence. Search and create issues, access documentation, manage sprints, and integrate your development workflow with Atlassian's collaboration tools.",
+      "description": "连接到 Atlassian 产品，包括 Jira 和 Confluence。搜索和创建问题、访问文档、管理冲刺，并将您的开发工作流与 Atlassian 的协作工具集成。",
       "category": "productivity",
       "source": {
         "source": "url",
@@ -441,14 +441,14 @@
     },
     {
       "name": "laravel-boost",
-      "description": "Laravel development toolkit MCP server. Provides intelligent assistance for Laravel applications including Artisan commands, Eloquent queries, routing, migrations, and framework-specific code generation.",
+      "description": "Laravel 开发工具包 MCP 服务器。为 Laravel 应用程序提供智能辅助，包括 Artisan 命令、Eloquent 查询、路由、迁移和框架特定的代码生成。",
       "category": "development",
       "source": "./external_plugins/laravel-boost",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/laravel-boost"
     },
     {
       "name": "figma",
-      "description": "Figma design platform integration. Access design files, extract component information, read design tokens, and translate designs into code. Bridge the gap between design and development workflows.",
+      "description": "Figma 设计平台集成。访问设计文件、提取组件信息、读取设计令牌，并将设计转换为代码。弥合设计和开发工作流之间的差距。",
       "category": "design",
       "source": {
         "source": "url",
@@ -458,21 +458,21 @@
     },
     {
       "name": "asana",
-      "description": "Asana project management integration. Create and manage tasks, search projects, update assignments, track progress, and integrate your development workflow with Asana's work management platform.",
+      "description": "Asana 项目管理集成。创建和管理任务、搜索项目、更新分配、跟踪进度，并将您的开发工作流与 Asana 的工作管理平台集成。",
       "category": "productivity",
       "source": "./external_plugins/asana",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/asana"
     },
     {
       "name": "linear",
-      "description": "Linear issue tracking integration. Create issues, manage projects, update statuses, search across workspaces, and streamline your software development workflow with Linear's modern issue tracker.",
+      "description": "Linear 问题跟踪集成。创建问题、管理项目、更新状态、跨工作区搜索，并使用 Linear 的现代问题跟踪器简化您的软件开发工作流。",
       "category": "productivity",
       "source": "./external_plugins/linear",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/linear"
     },
     {
       "name": "Notion",
-      "description": "Notion workspace integration. Search pages, create and update documents, manage databases, and access your team's knowledge base directly from Claude Code for seamless documentation workflows.",
+      "description": "Notion 工作区集成。搜索页面、创建和更新文档、管理数据库，并直接从 Claude Code 访问您团队的知识库，实现无缝的文档工作流。",
       "category": "productivity",
       "source": {
         "source": "url",
@@ -482,14 +482,14 @@
     },
     {
       "name": "gitlab",
-      "description": "GitLab DevOps platform integration. Manage repositories, merge requests, CI/CD pipelines, issues, and wikis. Full access to GitLab's comprehensive DevOps lifecycle tools.",
+      "description": "GitLab DevOps 平台集成。管理仓库、合并请求、CI/CD 管道、问题和 wiki。完全访问 GitLab 的全面 DevOps 生命周期工具。",
       "category": "productivity",
       "source": "./external_plugins/gitlab",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/gitlab"
     },
     {
       "name": "sentry",
-      "description": "Sentry error monitoring integration. Access error reports, analyze stack traces, search issues by fingerprint, and debug production errors directly from your development environment.",
+      "description": "Sentry 错误监控集成。访问错误报告、分析堆栈跟踪、按指纹搜索问题，并直接从您的开发环境调试生产错误。",
       "category": "monitoring",
       "source": {
         "source": "url",
@@ -499,14 +499,14 @@
     },
     {
       "name": "slack",
-      "description": "Slack workspace integration. Search messages, access channels, read threads, and stay connected with your team's communications while coding. Find relevant discussions and context quickly.",
+      "description": "Slack 工作区集成。搜索消息、访问频道、阅读线程，并在编码时保持与团队通信的连接。快速找到相关的讨论和上下文。",
       "category": "productivity",
       "source": "./external_plugins/slack",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/slack"
     },
     {
       "name": "vercel",
-      "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Claude Code.",
+      "description": "Vercel 部署平台集成。管理部署、检查构建状态、访问日志、配置域名，并直接从 Claude Code 控制您的前端基础设施。",
       "category": "deployment",
       "source": {
         "source": "url",
@@ -516,21 +516,21 @@
     },
         {
       "name": "stripe",
-      "description": "Stripe development plugin for Claude",
+      "description": "Claude 的 Stripe 开发插件",
       "category": "development",
       "source": "./external_plugins/stripe",
       "homepage": "https://github.com/stripe/ai/tree/main/providers/claude/plugin"
     },
     {
       "name": "firebase",
-      "description": "Google Firebase MCP integration. Manage Firestore databases, authentication, cloud functions, hosting, and storage. Build and manage your Firebase backend directly from your development workflow.",
+      "description": "Google Firebase MCP 集成。管理 Firestore 数据库、身份验证、云函数、托管和存储。直接从您的开发工作流构建和管理 Firebase 后端。",
       "category": "database",
       "source": "./external_plugins/firebase",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/firebase"
     },
     {
       "name": "context7",
-      "description": "Upstash Context7 MCP server for up-to-date documentation lookup. Pull version-specific documentation and code examples directly from source repositories into your LLM context.",
+      "description": "Upstash Context7 MCP 服务器，用于查找最新文档。直接从源代码仓库将特定版本的文档和代码示例提取到您的 LLM 上下文中。",
       "category": "development",
       "source": "./external_plugins/context7",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/context7",
@@ -538,7 +538,7 @@
     },
     {
       "name": "pinecone",
-      "description": "Pinecone vector database integration. Streamline your Pinecone development with powerful tools for managing vector indexes, querying data, and rapid prototyping. Use slash commands like /quickstart to generate AGENTS.md files and initialize Python projects and /query to quickly explore indexes. Access the Pinecone MCP server for creating, describing, upserting and querying indexes with Claude. Perfect for developers building semantic search, RAG applications, recommendation systems, and other vector-based applications with Pinecone.",
+      "description": "Pinecone 向量数据库集成。通过强大的工具简化 Pinecone 开发，包括管理向量索引、查询数据和快速原型设计。使用斜杠命令如 /quickstart 生成 AGENTS.md 文件并初始化 Python 项目，使用 /query 快速探索索引。访问 Pinecone MCP 服务器，使用 Claude 创建、描述、更新和查询索引。非常适合使用 Pinecone 构建语义搜索、RAG 应用、推荐系统和其他基于向量应用程序的开发者。",
       "category": "database",
       "source": {
         "source": "url",
@@ -548,7 +548,7 @@
     },
     {
       "name": "huggingface-skills",
-      "description": "Build, train, evaluate, and use open source AI models, datasets, and spaces.",
+      "description": "构建、训练、评估和使用开源 AI 模型、数据集和空间。",
       "category": "development",
       "source": {
         "source": "url",
