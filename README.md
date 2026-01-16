@@ -1,3 +1,5 @@
+[!TIP] Languages: English | |
+
 # Claude Code 插件市场
 
 一个精选的 Claude Code 高质量插件目录。包含 claude-code 官方插件市场中的所有插件，另外精选收录了第三方插件市场的优秀插件。
