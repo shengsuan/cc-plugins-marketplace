@@ -1,3 +1,5 @@
+[![简体中文](https://img.shields.io/badge/Language-简体中文-red?longCache=true&style=for-the-badge)](./README.md)
+
 # Claude Code Plugins Directory
 
 A curated directory of high-quality plugins for Claude Code.
