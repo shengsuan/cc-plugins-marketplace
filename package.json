@@ -1,0 +1,21 @@
+{
+  "name": "cc-plugins-marketplace",
+  "version": "1.0.0",
+  "description": "Claude Code Plugin Marketplace",
+  "type": "module",
+  "scripts": {
+    "add-plugin": "node scripts/add-plugin.js"
+  },
+  "keywords": [
+    "claude-code",
+    "plugins",
+    "marketplace"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^6.16.0",
+    "ora": "^8.2.0",
+    "zod": "^4.3.6"
+  }
+}

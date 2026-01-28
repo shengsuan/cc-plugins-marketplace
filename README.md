@@ -29,6 +29,21 @@
 
 第三方合作伙伴可以提交插件以供上架应用商店。外部插件必须符合质量和安全标准才能获得批准。
 
+#### 自动收录插件
+
+我们提供了一个自动化脚本来收录第三方插件:
+
+```bash
+npm run add-plugin -- --repo https://github.com/username/plugin-repo
+```
+
+该脚本将自动:
+- 克隆插件仓库
+- 验证插件结构
+- 复制到 `external_plugins` 目录
+
+详细使用说明请查看 [scripts/README.md](./scripts/README.md)。
+
 ## 插件目录结构
 
 每个插件都遵循标准结构：

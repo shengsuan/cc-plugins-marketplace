@@ -20,7 +20,9 @@
       "lspServers": {
         "typescript": {
           "command": "typescript-language-server",
-          "args": ["--stdio"],
+          "args": [
+            "--stdio"
+          ],
           "extensionToLanguage": {
             ".ts": "typescript",
             ".tsx": "typescriptreact",
@@ -48,7 +50,9 @@
       "lspServers": {
         "pyright": {
           "command": "pyright-langserver",
-          "args": ["--stdio"],
+          "args": [
+            "--stdio"
+          ],
           "extensionToLanguage": {
             ".py": "python",
             ".pyi": "python"
@@ -122,7 +126,9 @@
       "lspServers": {
         "clangd": {
           "command": "clangd",
-          "args": ["--background-index"],
+          "args": [
+            "--background-index"
+          ],
           "extensionToLanguage": {
             ".c": "c",
             ".h": "c",
@@ -151,7 +157,9 @@
       "lspServers": {
         "intelephense": {
           "command": "intelephense",
-          "args": ["--stdio"],
+          "args": [
+            "--stdio"
+          ],
           "extensionToLanguage": {
             ".php": "php"
           }
@@ -192,12 +200,14 @@
       "lspServers": {
         "kotlin-lsp": {
           "command": "kotlin-lsp",
-          "args": ["--stdio"],
+          "args": [
+            "--stdio"
+          ],
           "extensionToLanguage": {
             ".kt": "kotlin",
             ".kts": "kotlin"
           },
-          "startupTimeout" : 120000
+          "startupTimeout": 120000
         }
       }
     },
@@ -440,7 +450,9 @@
       "category": "development",
       "source": "./external_plugins/serena",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/serena",
-      "tags": ["community-managed"]
+      "tags": [
+        "community-managed"
+      ]
     },
     {
       "name": "playwright",
@@ -548,7 +560,7 @@
       },
       "homepage": "https://github.com/vercel/vercel-deploy-claude-code-plugin"
     },
-        {
+    {
       "name": "stripe",
       "description": "Claude 的 Stripe 开发插件",
       "category": "development",
@@ -568,7 +580,9 @@
       "category": "development",
       "source": "./external_plugins/context7",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/context7",
-      "tags": ["community-managed"]
+      "tags": [
+        "community-managed"
+      ]
     },
     {
       "name": "pinecone",
@@ -609,6 +623,17 @@
         "url": "https://github.com/obra/superpowers.git"
       },
       "homepage": "https://github.com/obra/superpowers.git"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "description": "UI/UX 设计智能。50 种风格，21 种调色板，50 对字体搭配，20 种图表，9 种栈（React、Next.js、Vue、Svelte、SwiftUI、React Native、Flutter、Tailwind、shadcn/ui）。操作：规划、构建、创建、设计、实现、评审、修复、改进、优化、提升、重构、检查 UI/UX 代码。项目：网站、着陆页、仪表盘、管理面板、电子商务、SaaS、作品集、博客、移动应用、.html、.tsx、.vue、.svelte。元素：按钮、模态框、导航栏、侧边栏、卡片、表格、表单、图表。风格：玻璃化、粘土化、极简、野蛮风、拟态、便当格、夜间模式、响应式、拟实设计、扁平化设计。主题：配色、可访问性、动画、布局、排版、字体搭配、间距、悬停、阴影、渐变。整合：shadcn/ui MCP 用于组件搜索和示例。",
+      "category": "development",
+      "source": "./external_plugins/ui-ux-pro-max",
+      "homepage": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "author": {
+        "name": "nextlevelbuilder"
+      },
+      "version": "2.0.1"
     }
   ]
 }
